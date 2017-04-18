@@ -23,7 +23,13 @@ Then it adds back the periods joining all the words into a single string, giving
  
      I really like the cat. The cat likes me. It does bite me though. The cat is mean sometimes. 
      The cat is mean sometimes. The cat likes me. I really like the cat. It does bite me though.   
-    
+ Now, after we tokenize and pos_tag, we get:
+ 
+     ['I', 'really', 'like', 'the', 'cat', '.', 'The', 'cat', 'likes', 'me', '.', 'It', 'does', 
+      'bite', 'me', 'though', '.', 'The', 'cat', 'is', 'mean', 'sometimes', '.', 'The', 'cat', 
+      'is', 'mean', 'sometimes', '.', 'The', 'cat', 'likes', 'me', '.', 'I', 'really', 'like', 
+      'the', 'cat', '.', 'It', 'does', 'bite', 'me', 'though', '.']
+      
     
 
 ### markovRandomTextGenerator.hs
