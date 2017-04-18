@@ -23,12 +23,24 @@ Then it adds back the periods joining all the words into a single string, giving
  
      I really like the cat. The cat likes me. It does bite me though. The cat is mean sometimes. 
      The cat is mean sometimes. The cat likes me. I really like the cat. It does bite me though.   
- Now, after we tokenize and pos_tag, we get:
+ Now, after we tokenize we get:
  
      ['I', 'really', 'like', 'the', 'cat', '.', 'The', 'cat', 'likes', 'me', '.', 'It', 'does', 
       'bite', 'me', 'though', '.', 'The', 'cat', 'is', 'mean', 'sometimes', '.', 'The', 'cat', 
       'is', 'mean', 'sometimes', '.', 'The', 'cat', 'likes', 'me', '.', 'I', 'really', 'like', 
       'the', 'cat', '.', 'It', 'does', 'bite', 'me', 'though', '.']
+ Then after pos_tag we get:
+ 
+     [('I', 'PRP'), ('really', 'RB'), ('like', 'IN'), ('the', 'DT'), ('cat', 'NN'), ('.', '.'), 
+      ('The', 'DT'), ('cat', 'NN'), ('likes', 'VBZ'), ('me', 'PRP'), ('.', '.'), ('It', 'PRP'), 
+      ('does', 'VBZ'), ('bite', 'VB'), ('me', 'PRP'), ('though', 'IN'), ('.', '.'), ('The', 'DT'), 
+      ('cat', 'NN'), ('is', 'VBZ'), ('mean', 'JJ'), ('sometimes', 'RB'), ('.', '.'), ('The', 'DT'), 
+      ('cat', 'NN'), ('is', 'VBZ'), ('mean', 'JJ'), ('sometimes', 'RB'), ('.', '.'), ('The', 'DT'), 
+      ('cat', 'NN'), ('likes', 'VBZ'), ('me', 'PRP'), ('.', '.'), ('I', 'PRP'), ('really', 'RB'), 
+      ('like', 'IN'), ('the', 'DT'), ('cat', 'NN'), ('.', '.'), ('It', 'PRP'), ('does', 'VBZ'), 
+      ('bite', 'VB'), ('me', 'PRP'), ('though', 'IN'), ('.', '.')]
+ 
+      
       
     
 
