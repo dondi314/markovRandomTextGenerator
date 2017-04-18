@@ -16,6 +16,6 @@ One thing that would help would be to convert all male names in the corpus to a 
 Similarly, it helps to change as many he/she sentences as you can to the same gender.  In otherwords, pick a gender, say female.  The a sentence that reads, 
 
     "He goes to the store to buy fake cheese." 
-should read,
+should be changed to,
 
     "She goes to the store to buy fake cheese." 
