@@ -49,7 +49,7 @@ create the same key in our dictionary of
 and that 
  
      ('The', 'DT') and ('It', 'PRP') 
-should be equally likely to occur afterwards.  This is a pretty hacked solution to the problem of "We don't care what happens after the period." and I plan on making a better solution later on (which would be easy to implement I admit).  However, running this hacked solution gave good results for my purposes, although it would cause considerable slowdown for bigger cases (though only linearly in time).
+should be equally likely to occur afterwards.  This is a pretty hacked solution to the problem of "We don't care what happens after the period." and I plan on making a better solution later on (which would be easy to implement I admit).  However, running this hacked solution gave good results for my purposes, although it would cause considerable slowdown for bigger cases.
 
       
       
