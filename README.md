@@ -4,6 +4,9 @@
 
 This program will generate random text using a Markov chain.  The program pulls the text from a MySQL database named "nlpText".
 
+### markovRandomTextGeneratorVer2.py
+
+This program will generate random text using a Markov chain.  The program pulls the text from a MySQL database named "nlpText".  This is the version I used to get the data which you will find in the myResults folder.  I decided to leave the other version because it has less to it, and you can modify it to your liking if you wish.
 
 ### markovRandomTextGenerator.hs
 
