@@ -8,7 +8,7 @@ This program will generate random text using a Markov chain.  The program pulls 
 
 This program will generate random text using a Markov chain.  The program pulls the text from a MySQL database named "nlpText".  This is the version I used to get the data which you will find in the myResults folder.  I decided to leave the other version because it has less to it, and you can modify it to your liking if you wish.  I added in a function called randomizeSentenceOrdering at the top of the file.  The input is a string, and what it does is takes a sentence such as,
 
-    I really like the cat.  The cat likes me.  It does bite me though.  The cat is mean sometimes.
+    I really like the cat. The cat likes me. It does bite me though. The cat is mean sometimes.
 converts it to a list split by the periods,
 
     ["I really like the cat","The cat likes me","It does bite me though","The cat is mean sometimes"]
