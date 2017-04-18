@@ -1,5 +1,9 @@
 # markovRandomTextGenerator
 
+### markov.py
+
+This program will generate random text using a Markov chain.  The program pulls the text from a MySQL database named "nlpTest".
+
 
 ### markovRandomTextGenerator.hs
 
