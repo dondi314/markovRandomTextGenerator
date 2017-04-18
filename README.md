@@ -39,6 +39,8 @@ Then it adds back the periods joining all the words into a single string, giving
       ('cat', 'NN'), ('likes', 'VBZ'), ('me', 'PRP'), ('.', '.'), ('I', 'PRP'), ('really', 'RB'), 
       ('like', 'IN'), ('the', 'DT'), ('cat', 'NN'), ('.', '.'), ('It', 'PRP'), ('does', 'VBZ'), 
       ('bite', 'VB'), ('me', 'PRP'), ('though', 'IN'), ('.', '.')]
+      
+ The idea is that ('cat', 'NN'), ('.', '.'), ('The', 'DT') and ('cat', 'NN'), ('.', '.'), ('It', 'PRP') are now 
  
       
       
