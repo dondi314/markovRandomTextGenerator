@@ -15,7 +15,9 @@ converts it to a list split by the periods,
 and then randomly rearranges the words, for example like this:
 
     ["The cat is mean sometimes","The cat likes me","I really like the cat","It does bite me though"]
-Then it adds back the periods like
+Then it adds back the periods joining all the words into a single string, giving:
+
+    The cat is mean sometimes. The cat likes me. I really like the cat. It does bite me though.
     
 
 ### markovRandomTextGenerator.hs
