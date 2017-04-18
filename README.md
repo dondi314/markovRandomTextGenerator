@@ -40,7 +40,10 @@ Then it adds back the periods joining all the words into a single string, giving
       ('like', 'IN'), ('the', 'DT'), ('cat', 'NN'), ('.', '.'), ('It', 'PRP'), ('does', 'VBZ'), 
       ('bite', 'VB'), ('me', 'PRP'), ('though', 'IN'), ('.', '.')]
       
- The idea is that ('cat', 'NN'), ('.', '.'), ('The', 'DT') and ('cat', 'NN'), ('.', '.'), ('It', 'PRP') are now 
+ The idea is that: 
+ 
+     ('cat', 'NN'), ('.', '.'), ('The', 'DT') and ('cat', 'NN'), ('.', '.'), ('It', 'PRP') 
+ create the same key in our dictionary of (('cat', 'NN'), ('.', '.')), and that ('The', 'DT') and ('It', 'PRP') should be equally likely to occur afterwards.
  
       
       
