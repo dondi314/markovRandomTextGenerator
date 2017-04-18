@@ -19,17 +19,17 @@ Then it adds back the periods joining all the words into a single string, giving
 
     The cat is mean sometimes. The cat likes me. I really like the cat. It does bite me though.
     
- Before I do word_tokenize and pos_tag, I concatenate the two strings, giving:
+Before I do word_tokenize and pos_tag, I concatenate the two strings, giving:
  
      I really like the cat. The cat likes me. It does bite me though. The cat is mean sometimes. 
      The cat is mean sometimes. The cat likes me. I really like the cat. It does bite me though.   
- Now, after we tokenize we get:
+Now, after we tokenize we get:
  
      ['I', 'really', 'like', 'the', 'cat', '.', 'The', 'cat', 'likes', 'me', '.', 'It', 'does', 
       'bite', 'me', 'though', '.', 'The', 'cat', 'is', 'mean', 'sometimes', '.', 'The', 'cat', 
       'is', 'mean', 'sometimes', '.', 'The', 'cat', 'likes', 'me', '.', 'I', 'really', 'like', 
       'the', 'cat', '.', 'It', 'does', 'bite', 'me', 'though', '.']
- Then after pos_tag we get:
+Then after pos_tag we get:
  
      [('I', 'PRP'), ('really', 'RB'), ('like', 'IN'), ('the', 'DT'), ('cat', 'NN'), ('.', '.'), 
       ('The', 'DT'), ('cat', 'NN'), ('likes', 'VBZ'), ('me', 'PRP'), ('.', '.'), ('It', 'PRP'), 
@@ -40,10 +40,16 @@ Then it adds back the periods joining all the words into a single string, giving
       ('like', 'IN'), ('the', 'DT'), ('cat', 'NN'), ('.', '.'), ('It', 'PRP'), ('does', 'VBZ'), 
       ('bite', 'VB'), ('me', 'PRP'), ('though', 'IN'), ('.', '.')]
       
- The idea is that: 
+The idea is that: 
  
      ('cat', 'NN'), ('.', '.'), ('The', 'DT') and ('cat', 'NN'), ('.', '.'), ('It', 'PRP') 
- create the same key in our dictionary of (('cat', 'NN'), ('.', '.')), and that ('The', 'DT') and ('It', 'PRP') should be equally likely to occur afterwards.
+create the same key in our dictionary of 
+ 
+     (('cat', 'NN'), ('.', '.')), 
+and that 
+ 
+     ('The', 'DT') and ('It', 'PRP') 
+should be equally likely to occur afterwards.
  
       
       
