@@ -13,7 +13,7 @@ The main objective was to find text that was good for producing random sentences
 
 One thing that would help would be to convert all male names in the corpus to a single male name, and all the female names to a single female name.  This will help make the text generation more random.  Say that Chingbobcooney was a name in your corpus.  Since it only shows up once most likely, whenever your algorithm comes to a key in your dictionary (word, Chingbobcooney), it will always assign the same word after.  However, say Chingbobcooney is male, then we could have assigned hime the name Zeus, as well as every other proper male noun, and we would have more choices for the next word in the sentence.  Also, since we are just generating random sentences, we don't care about the name much, and the grammar should work just as well as with another name subbed in.
 
-Similarly, it helps to change as many he/she sentences as you can to the same gender.  In otherwords, pick a gender, say female.  The a sentence that reads, 
+Similarly, it helps to change as many he/she sentences as you can to the same gender.  In otherwords, pick a gender, say female.  Then a sentence that reads, 
 
     "He goes to the store to buy fake cheese." 
 should be changed to,
