@@ -21,7 +21,8 @@ Then it adds back the periods joining all the words into a single string, giving
     
  Before I do word_tokenize and pos_tag, I concatenate the two strings, giving:
  
-     I really like the cat. The cat likes me. It does bite me though. The cat is mean sometimes. The cat is mean sometimes. The cat likes me. I really like the cat. It does bite me though.   
+     I really like the cat. The cat likes me. It does bite me though. The cat is mean sometimes. 
+     The cat is mean sometimes. The cat likes me. I really like the cat. It does bite me though.   
     
     
 
